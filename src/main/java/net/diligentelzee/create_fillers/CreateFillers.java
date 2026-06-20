@@ -1,5 +1,7 @@
 package net.diligentelzee.create_fillers;
 
+import net.diligentelzee.create_fillers.block.ModBlocks;
+import net.diligentelzee.create_fillers.item.ModCreativeModeTabs;
 import net.diligentelzee.create_fillers.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -37,7 +39,10 @@ public class CreateFillers {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -52,8 +57,30 @@ public class CreateFillers {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+
         if (event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
             event.accept(ModItems.KILLER_RABBIT_SPAWNEGG);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.HYPERDENSE_COAL_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_COAL_ORE);
+            event.accept(ModBlocks.HYPERDENSE_COPPER_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_COPPER_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DIAMOND_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_DIAMOND_ORE);
+            event.accept(ModBlocks.HYPERDENSE_EMERALD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_EMERALD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_GOLD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_GOLD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_IRON_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_IRON_ORE);
+            event.accept(ModBlocks.HYPERDENSE_LAPIS_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_LAPIS_ORE);
+            event.accept(ModBlocks.HYPERDENSE_REDSTONE_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_REDSTONE_ORE);
+            event.accept(ModBlocks.HYPERDENSE_NETHER_GOLD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_NETHER_QUARTZ_ORE);
         }
     }
 

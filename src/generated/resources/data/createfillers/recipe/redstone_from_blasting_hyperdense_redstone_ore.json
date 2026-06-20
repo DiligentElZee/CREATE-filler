@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 125,
+  "experience": 0.6,
+  "group": "redstone",
+  "ingredient": {
+    "item": "createfillers:hyperdense_redstone_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:redstone"
+  }
+}

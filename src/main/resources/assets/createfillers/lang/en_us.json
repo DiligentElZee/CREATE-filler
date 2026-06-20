@@ -1,3 +1,34 @@
 {
-  "item.createfillers.killer_rabbit_spawnegg": "Killer Rabbit Spawn Egg"
+  "item.createfillers.killer_rabbit_spawnegg": "Killer Rabbit Spawn Egg",
+
+  "createivetab.createfillers.items": "Create Fillers",
+
+  "block.createfillers.hyperdense_coal_ore": "Hyperdense Coal Ore",
+  "block.createfillers.hyperdense_deepslate_coal_ore": "Hyperdense Deepslate Coal Ore",
+
+  "block.createfillers.hyperdense_copper_ore": "Hyperdense Copper Ore",
+  "block.createfillers.hyperdense_deepslate_copper_ore": "Hyperdense Deepslate Copper Ore",
+
+  "block.createfillers.hyperdense_diamond_ore": "Hyperdense Diamond Ore",
+  "block.createfillers.hyperdense_deepslate_diamond_ore": "Hyperdense Deepslate Diamond Ore",
+
+  "block.createfillers.hyperdense_emerald_ore": "Hyperdense Emerald Ore",
+  "block.createfillers.hyperdense_deepslate_emerald_ore": "Hyperdense Deepslate Emerald Ore",
+
+  "block.createfillers.hyperdense_gold_ore": "Hyperdense Gold Ore",
+  "block.createfillers.hyperdense_deepslate_gold_ore": "Hyperdense Deepslate Gold Ore",
+  "block.createfillers.hyperdense_nether_gold_ore": "Hyperdense Nether Gold Ore",
+
+  "block.createfillers.hyperdense_iron_ore": "Hyperdense Iron Ore",
+  "block.createfillers.hyperdense_deepslate_iron_ore": "Hyperdense Deepslate Iron Ore",
+
+  "block.createfillers.hyperdense_lapis_ore": "Hyperdense Lapis Ore",
+  "block.createfillers.hyperdense_deepslate_lapis_ore": "Hyperdense Deepslate Lapis Ore",
+
+  "block.createfillers.hyperdense_redstone_ore": "Hyperdense Redstone Ore",
+  "block.createfillers.hyperdense_deepslate_redstone_ore": "Hyperdense Deepslate Redstone Ore",
+
+  "block.createfillers.hyperdense_nether_quartz_ore": "Hyperdense Quartz Ore",
+
+  "tooltip.createfillers.krse.tooltip": "Spawns the dreaded 'Killer Rabbit'."
 }

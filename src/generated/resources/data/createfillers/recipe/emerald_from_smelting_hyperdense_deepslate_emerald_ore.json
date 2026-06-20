@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 0.5,
+  "group": "emerald",
+  "ingredient": {
+    "item": "createfillers:hyperdense_deepslate_emerald_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:emerald"
+  }
+}

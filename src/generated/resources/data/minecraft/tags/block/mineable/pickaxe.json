@@ -1,0 +1,22 @@
+{
+  "values": [
+    "createfillers:hyperdense_coal_ore",
+    "createfillers:hyperdense_deepslate_coal_ore",
+    "createfillers:hyperdense_copper_ore",
+    "createfillers:hyperdense_deepslate_copper_ore",
+    "createfillers:hyperdense_diamond_ore",
+    "createfillers:hyperdense_deepslate_diamond_ore",
+    "createfillers:hyperdense_emerald_ore",
+    "createfillers:hyperdense_deepslate_emerald_ore",
+    "createfillers:hyperdense_gold_ore",
+    "createfillers:hyperdense_deepslate_gold_ore",
+    "createfillers:hyperdense_iron_ore",
+    "createfillers:hyperdense_deepslate_iron_ore",
+    "createfillers:hyperdense_lapis_ore",
+    "createfillers:hyperdense_deepslate_lapis_ore",
+    "createfillers:hyperdense_redstone_ore",
+    "createfillers:hyperdense_deepslate_redstone_ore",
+    "createfillers:hyperdense_nether_gold_ore",
+    "createfillers:hyperdense_nether_quartz_ore"
+  ]
+}

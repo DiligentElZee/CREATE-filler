@@ -1,0 +1,10 @@
+{
+  "values": [
+    "createfillers:hyperdense_iron_ore",
+    "createfillers:hyperdense_deepslate_iron_ore",
+    "createfillers:hyperdense_lapis_ore",
+    "createfillers:hyperdense_deepslate_lapis_ore",
+    "createfillers:hyperdense_copper_ore",
+    "createfillers:hyperdense_deepslate_copper_ore"
+  ]
+}
