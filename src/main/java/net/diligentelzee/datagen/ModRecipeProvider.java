@@ -23,16 +23,94 @@ public class ModRecipeProvider extends RecipeProvider {
 
     @Override
     protected void buildRecipes(@NotNull RecipeOutput recipeOutput) {
-        List<ItemLike> COAL_SMELTABLES = List.of(ModBlocks.HYPERDENSE_COAL_ORE, ModBlocks.HYPERDENSE_DEEPSLATE_COAL_ORE);
-        List<ItemLike> COPPER_SMELTABLES = List.of(ModBlocks.HYPERDENSE_COPPER_ORE, ModBlocks.HYPERDENSE_DEEPSLATE_COPPER_ORE);
-        List<ItemLike> DIAMOND_SMELTABLES = List.of(ModBlocks.HYPERDENSE_DIAMOND_ORE, ModBlocks.HYPERDENSE_DEEPSLATE_DIAMOND_ORE);
-        List<ItemLike> EMERALD_SMELTABLES = List.of(ModBlocks.HYPERDENSE_EMERALD_ORE, ModBlocks.HYPERDENSE_DEEPSLATE_EMERALD_ORE);
-        List<ItemLike> GOLD_SMELTABLES = List.of(ModBlocks.HYPERDENSE_GOLD_ORE, ModBlocks.HYPERDENSE_DEEPSLATE_GOLD_ORE);
-        List<ItemLike> NETHER_GOLD_SMELTABLE = List.of(ModBlocks.HYPERDENSE_NETHER_GOLD_ORE);
-        List<ItemLike> IRON_SMELTABLES = List.of(ModBlocks.HYPERDENSE_IRON_ORE, ModBlocks.HYPERDENSE_DEEPSLATE_IRON_ORE);
-        List<ItemLike> LAPIS_SMELTABLES = List.of(ModBlocks.HYPERDENSE_LAPIS_ORE, ModBlocks.HYPERDENSE_DEEPSLATE_LAPIS_ORE);
-        List<ItemLike> REDSTONE_SMELTABLES = List.of(ModBlocks.HYPERDENSE_REDSTONE_ORE, ModBlocks.HYPERDENSE_DEEPSLATE_REDSTONE_ORE);
-        List<ItemLike> NETHER_QUARTZ_SMELTABLE = List.of(ModBlocks.HYPERDENSE_NETHER_QUARTZ_ORE);
+        List<ItemLike> COAL_SMELTABLES = List.of(
+                ModBlocks.HYPERDENSE_COAL_ORE,
+                ModBlocks.HYPERDENSE_DEEPSLATE_COAL_ORE,
+                ModBlocks.HYPERDENSE_ANDESITE_COAL_ORE,
+                ModBlocks.HYPERDENSE_DIORITE_COAL_ORE,
+                ModBlocks.HYPERDENSE_GRANITE_COAL_ORE,
+                ModBlocks.HYPERDENSE_TUFF_COAL_ORE,
+                ModBlocks.HYPERDENSE_BLACKSTONE_COAL_ORE
+        );
+        
+        List<ItemLike> COPPER_SMELTABLES = List.of(
+                ModBlocks.HYPERDENSE_COPPER_ORE,
+                ModBlocks.HYPERDENSE_DEEPSLATE_COPPER_ORE,
+                ModBlocks.HYPERDENSE_ANDESITE_COPPER_ORE,
+                ModBlocks.HYPERDENSE_DIORITE_COPPER_ORE,
+                ModBlocks.HYPERDENSE_GRANITE_COPPER_ORE,
+                ModBlocks.HYPERDENSE_TUFF_COPPER_ORE,
+                ModBlocks.HYPERDENSE_BLACKSTONE_COPPER_ORE
+        );
+        
+        List<ItemLike> DIAMOND_SMELTABLES = List.of(
+                ModBlocks.HYPERDENSE_DIAMOND_ORE,
+                ModBlocks.HYPERDENSE_DEEPSLATE_DIAMOND_ORE,
+                ModBlocks.HYPERDENSE_ANDESITE_DIAMOND_ORE,
+                ModBlocks.HYPERDENSE_DIORITE_DIAMOND_ORE,
+                ModBlocks.HYPERDENSE_GRANITE_DIAMOND_ORE,
+                ModBlocks.HYPERDENSE_TUFF_DIAMOND_ORE,
+                ModBlocks.HYPERDENSE_BLACKSTONE_DIAMOND_ORE
+        );
+        
+        List<ItemLike> EMERALD_SMELTABLES = List.of(
+                ModBlocks.HYPERDENSE_EMERALD_ORE,
+                ModBlocks.HYPERDENSE_DEEPSLATE_EMERALD_ORE,
+                ModBlocks.HYPERDENSE_ANDESITE_EMERALD_ORE,
+                ModBlocks.HYPERDENSE_DIORITE_EMERALD_ORE,
+                ModBlocks.HYPERDENSE_GRANITE_EMERALD_ORE,
+                ModBlocks.HYPERDENSE_TUFF_EMERALD_ORE,
+                ModBlocks.HYPERDENSE_BLACKSTONE_EMERALD_ORE
+        );
+        
+        List<ItemLike> GOLD_SMELTABLES = List.of(
+                ModBlocks.HYPERDENSE_GOLD_ORE,
+                ModBlocks.HYPERDENSE_DEEPSLATE_GOLD_ORE,
+                ModBlocks.HYPERDENSE_ANDESITE_GOLD_ORE,
+                ModBlocks.HYPERDENSE_DIORITE_GOLD_ORE,
+                ModBlocks.HYPERDENSE_GRANITE_GOLD_ORE,
+                ModBlocks.HYPERDENSE_TUFF_GOLD_ORE
+        );
+        
+        List<ItemLike> NETHER_GOLD_SMELTABLE = List.of(
+                ModBlocks.HYPERDENSE_NETHER_GOLD_ORE,
+                ModBlocks.HYPERDENSE_BLACKSTONE_GOLD_ORE
+        );
+        
+        List<ItemLike> IRON_SMELTABLES = List.of(
+                ModBlocks.HYPERDENSE_IRON_ORE,
+                ModBlocks.HYPERDENSE_DEEPSLATE_IRON_ORE,
+                ModBlocks.HYPERDENSE_ANDESITE_IRON_ORE,
+                ModBlocks.HYPERDENSE_DIORITE_IRON_ORE,
+                ModBlocks.HYPERDENSE_GRANITE_IRON_ORE,
+                ModBlocks.HYPERDENSE_TUFF_IRON_ORE,
+                ModBlocks.HYPERDENSE_BLACKSTONE_IRON_ORE
+        );
+        
+        List<ItemLike> LAPIS_SMELTABLES = List.of(
+                ModBlocks.HYPERDENSE_LAPIS_ORE,
+                ModBlocks.HYPERDENSE_DEEPSLATE_LAPIS_ORE,
+                ModBlocks.HYPERDENSE_ANDESITE_LAPIS_ORE,
+                ModBlocks.HYPERDENSE_DIORITE_LAPIS_ORE,
+                ModBlocks.HYPERDENSE_GRANITE_LAPIS_ORE,
+                ModBlocks.HYPERDENSE_TUFF_LAPIS_ORE,
+                ModBlocks.HYPERDENSE_BLACKSTONE_LAPIS_ORE
+        );
+        
+        List<ItemLike> REDSTONE_SMELTABLES = List.of(
+                ModBlocks.HYPERDENSE_REDSTONE_ORE,
+                ModBlocks.HYPERDENSE_DEEPSLATE_REDSTONE_ORE,
+                ModBlocks.HYPERDENSE_ANDESITE_REDSTONE_ORE,
+                ModBlocks.HYPERDENSE_DIORITE_REDSTONE_ORE,
+                ModBlocks.HYPERDENSE_GRANITE_REDSTONE_ORE,
+                ModBlocks.HYPERDENSE_TUFF_REDSTONE_ORE,
+                ModBlocks.HYPERDENSE_BLACKSTONE_REDSTONE_ORE
+        );
+        
+        List<ItemLike> NETHER_QUARTZ_SMELTABLE = List.of(
+                ModBlocks.HYPERDENSE_NETHER_QUARTZ_ORE,
+                ModBlocks.HYPERDENSE_BLACKSTONE_QUARTZ_ORE
+        );
 
         oreSmelting(recipeOutput, COAL_SMELTABLES, RecipeCategory.MISC, Items.COAL, 0.5f, 250, "coal");
         oreBlasting(recipeOutput, COAL_SMELTABLES, RecipeCategory.MISC, Items.COAL, 0.6f, 125, "coal");
@@ -86,4 +164,5 @@ public class ModRecipeProvider extends RecipeProvider {
             SimpleCookingRecipeBuilder.generic(Ingredient.of(itemlike), pCategory, pResult, pExperience, pCookingTime, pCookingSerializer, factory).group(pGroup).unlockedBy(getHasName(itemlike), has(itemlike))
                     .save(recipeOutput, CreateFillers.MOD_ID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
         }
-}}
+    }
+}

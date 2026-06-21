@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "createfillers:block/hyperdense_tuff_lapis_ore"
+  }
+}

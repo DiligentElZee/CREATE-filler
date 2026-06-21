@@ -18,6 +18,7 @@ public class ModTags {
     }
 
     public static class Items {
+        public static final TagKey<Item> HYPERDENSE_ORE_ITEMS = createTag("hyperdense_ore_items");
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(CreateFillers.MOD_ID, name));

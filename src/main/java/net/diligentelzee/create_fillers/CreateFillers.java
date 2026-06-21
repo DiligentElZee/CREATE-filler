@@ -17,8 +17,6 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraft.client.Minecraft;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
@@ -28,34 +26,33 @@ public class CreateFillers {
     public static final String MOD_ID = "createfillers";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    // The constructor for the mod class is the first code that is run when your mod is loaded.
-    // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public CreateFillers(IEventBus modEventBus, ModContainer modContainer) {
-        // Register the commonSetup method for modloading
-        modEventBus.addListener(this::commonSetup);
 
-        // Register ourselves for server and other game events we are interested in.
-        // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
-        // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
-        NeoForge.EVENT_BUS.register(this);
+        LOGGER.info("=======================================");
+        LOGGER.info("      INITIALIZING CREATE FILLERS");
+        LOGGER.info("=======================================");
 
-        ModCreativeModeTabs.register(modEventBus);
+        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
 
         ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
+        LOGGER.info("[OK] Items Loaded");
 
-        // Register the item to a creative tab
+        ModBlocks.register(modEventBus);
+        LOGGER.info("[OK] Blocks Loaded");
+
+        ModCreativeModeTabs.register(modEventBus);
+        LOGGER.info("[OK] Creative Mode Tabs Loaded");
+
         modEventBus.addListener(this::addCreative);
 
-        // Register our mod's ModConfigSpec so that FML can create and load the config file for us
-        modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        LOGGER.info("Hyperdense ore deposits detected...");
+        LOGGER.info("Fluffy threat detected...");
+        LOGGER.info("Happy Mining! :3");
+        LOGGER.info("========================================");
+        LOGGER.info("       CREATE FILLERS INITIALIZED");
+        LOGGER.info("========================================");
     }
 
-    private void commonSetup(FMLCommonSetupEvent event) {
-
-    }
-
-    // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
         if (event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
@@ -65,22 +62,72 @@ public class CreateFillers {
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.HYPERDENSE_COAL_ORE);
             event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_COAL_ORE);
+            event.accept(ModBlocks.HYPERDENSE_ANDESITE_COAL_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DIORITE_COAL_ORE);
+            event.accept(ModBlocks.HYPERDENSE_GRANITE_COAL_ORE);
+            event.accept(ModBlocks.HYPERDENSE_TUFF_COAL_ORE);
+            event.accept(ModBlocks.HYPERDENSE_BLACKSTONE_COAL_ORE);
+
             event.accept(ModBlocks.HYPERDENSE_COPPER_ORE);
             event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_COPPER_ORE);
+            event.accept(ModBlocks.HYPERDENSE_ANDESITE_COPPER_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DIORITE_COPPER_ORE);
+            event.accept(ModBlocks.HYPERDENSE_GRANITE_COPPER_ORE);
+            event.accept(ModBlocks.HYPERDENSE_TUFF_COPPER_ORE);
+            event.accept(ModBlocks.HYPERDENSE_BLACKSTONE_COPPER_ORE);
+
             event.accept(ModBlocks.HYPERDENSE_DIAMOND_ORE);
             event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_DIAMOND_ORE);
+            event.accept(ModBlocks.HYPERDENSE_ANDESITE_DIAMOND_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DIORITE_DIAMOND_ORE);
+            event.accept(ModBlocks.HYPERDENSE_GRANITE_DIAMOND_ORE);
+            event.accept(ModBlocks.HYPERDENSE_TUFF_DIAMOND_ORE);
+            event.accept(ModBlocks.HYPERDENSE_BLACKSTONE_DIAMOND_ORE);
+
             event.accept(ModBlocks.HYPERDENSE_EMERALD_ORE);
             event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_EMERALD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_ANDESITE_EMERALD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DIORITE_EMERALD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_GRANITE_EMERALD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_TUFF_EMERALD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_BLACKSTONE_EMERALD_ORE);
+
             event.accept(ModBlocks.HYPERDENSE_GOLD_ORE);
             event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_GOLD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_ANDESITE_GOLD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DIORITE_GOLD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_GRANITE_GOLD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_TUFF_GOLD_ORE);
+
             event.accept(ModBlocks.HYPERDENSE_IRON_ORE);
             event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_IRON_ORE);
+            event.accept(ModBlocks.HYPERDENSE_ANDESITE_IRON_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DIORITE_IRON_ORE);
+            event.accept(ModBlocks.HYPERDENSE_GRANITE_IRON_ORE);
+            event.accept(ModBlocks.HYPERDENSE_TUFF_IRON_ORE);
+            event.accept(ModBlocks.HYPERDENSE_BLACKSTONE_IRON_ORE);
+
             event.accept(ModBlocks.HYPERDENSE_LAPIS_ORE);
             event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_LAPIS_ORE);
+            event.accept(ModBlocks.HYPERDENSE_ANDESITE_LAPIS_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DIORITE_LAPIS_ORE);
+            event.accept(ModBlocks.HYPERDENSE_GRANITE_LAPIS_ORE);
+            event.accept(ModBlocks.HYPERDENSE_TUFF_LAPIS_ORE);
+            event.accept(ModBlocks.HYPERDENSE_BLACKSTONE_LAPIS_ORE);
+
             event.accept(ModBlocks.HYPERDENSE_REDSTONE_ORE);
             event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_REDSTONE_ORE);
+            event.accept(ModBlocks.HYPERDENSE_ANDESITE_REDSTONE_ORE);
+            event.accept(ModBlocks.HYPERDENSE_DIORITE_REDSTONE_ORE);
+            event.accept(ModBlocks.HYPERDENSE_GRANITE_REDSTONE_ORE);
+            event.accept(ModBlocks.HYPERDENSE_TUFF_REDSTONE_ORE);
+            event.accept(ModBlocks.HYPERDENSE_BLACKSTONE_REDSTONE_ORE);
+
             event.accept(ModBlocks.HYPERDENSE_NETHER_GOLD_ORE);
+            event.accept(ModBlocks.HYPERDENSE_BLACKSTONE_GOLD_ORE);
+
             event.accept(ModBlocks.HYPERDENSE_NETHER_QUARTZ_ORE);
+            event.accept(ModBlocks.HYPERDENSE_BLACKSTONE_QUARTZ_ORE);
         }
     }
 

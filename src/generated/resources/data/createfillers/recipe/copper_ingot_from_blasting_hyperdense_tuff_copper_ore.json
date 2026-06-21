@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 125,
+  "experience": 0.6,
+  "group": "copper",
+  "ingredient": {
+    "item": "createfillers:hyperdense_tuff_copper_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:copper_ingot"
+  }
+}

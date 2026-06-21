@@ -2,9 +2,24 @@
   "values": [
     "createfillers:hyperdense_iron_ore",
     "createfillers:hyperdense_deepslate_iron_ore",
+    "createfillers:hyperdense_andesite_iron_ore",
+    "createfillers:hyperdense_diorite_iron_ore",
+    "createfillers:hyperdense_granite_iron_ore",
+    "createfillers:hyperdense_tuff_iron_ore",
+    "createfillers:hyperdense_blackstone_iron_ore",
     "createfillers:hyperdense_lapis_ore",
     "createfillers:hyperdense_deepslate_lapis_ore",
+    "createfillers:hyperdense_andesite_lapis_ore",
+    "createfillers:hyperdense_diorite_lapis_ore",
+    "createfillers:hyperdense_granite_lapis_ore",
+    "createfillers:hyperdense_tuff_lapis_ore",
+    "createfillers:hyperdense_blackstone_lapis_ore",
     "createfillers:hyperdense_copper_ore",
-    "createfillers:hyperdense_deepslate_copper_ore"
+    "createfillers:hyperdense_deepslate_copper_ore",
+    "createfillers:hyperdense_andesite_copper_ore",
+    "createfillers:hyperdense_diorite_copper_ore",
+    "createfillers:hyperdense_granite_copper_ore",
+    "createfillers:hyperdense_tuff_copper_ore",
+    "createfillers:hyperdense_blackstone_copper_ore"
   ]
 }

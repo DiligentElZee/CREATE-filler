@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 1.0,
+  "group": "lapis",
+  "ingredient": {
+    "item": "createfillers:hyperdense_tuff_lapis_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:lapis_lazuli"
+  }
+}

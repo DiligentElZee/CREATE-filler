@@ -27,5 +27,7 @@ public class ModItems {
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
+
+        CreateFillers.LOGGER.info("[Module] ITEMS Registered!");
     }
 }
