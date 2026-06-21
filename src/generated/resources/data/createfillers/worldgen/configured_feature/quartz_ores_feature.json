@@ -15,19 +15,19 @@
       },
       {
         "state": {
-          "Name": "enhanced_ore_variety:blackstone_quartz_ore"
+          "Name": "createfillers:hyperdense_nether_quartz_ore"
         },
         "target": {
-          "block": "minecraft:blackstone",
+          "block": "minecraft:netherrack",
           "predicate_type": "minecraft:block_match"
         }
       },
       {
         "state": {
-          "Name": "createfillers:hyperdense_nether_quartz_ore"
+          "Name": "enhanced_ore_variety:blackstone_quartz_ore"
         },
         "target": {
-          "block": "minecraft:netherrack",
+          "block": "minecraft:blackstone",
           "predicate_type": "minecraft:block_match"
         }
       },

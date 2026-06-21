@@ -60,6 +60,15 @@ public class ModConfiguredFeatures {
         // Coal
         List<OreConfiguration.TargetBlockState> coalOres = List.of(
                 OreConfiguration.target(stoneReplaceable, Blocks.COAL_ORE.defaultBlockState()),
+
+                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_COAL_ORE.get().defaultBlockState()),
+                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_COAL_ORE.get().defaultBlockState()),
+                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_COAL_ORE.get().defaultBlockState()),
+                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_COAL_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_COAL_ORE.get().defaultBlockState()),
+                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_COAL_ORE.get().defaultBlockState()),
+                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_COAL_ORE.get().defaultBlockState()),
+
                 OreConfiguration.target(dioriteReplaceable, EOVBlocks.DIORITE_COAL_ORE.get().defaultBlockState()),
                 OreConfiguration.target(andesiteReplaceable, EOVBlocks.ANDESITE_COAL_ORE.get().defaultBlockState()),
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_COAL_ORE.get().defaultBlockState()),
@@ -82,6 +91,15 @@ public class ModConfiguredFeatures {
         // Copper
         List<OreConfiguration.TargetBlockState> copperOres = List.of(
                 OreConfiguration.target(stoneReplaceable, Blocks.COPPER_ORE.defaultBlockState()),
+
+                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_COPPER_ORE.get().defaultBlockState()),
+                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_COPPER_ORE.get().defaultBlockState()),
+                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_COPPER_ORE.get().defaultBlockState()),
+                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_COPPER_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_COPPER_ORE.get().defaultBlockState()),
+                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_COPPER_ORE.get().defaultBlockState()),
+                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_COPPER_ORE.get().defaultBlockState()),
+
                 OreConfiguration.target(dioriteReplaceable, EOVBlocks.DIORITE_COPPER_ORE.get().defaultBlockState()),
                 OreConfiguration.target(andesiteReplaceable, EOVBlocks.ANDESITE_COPPER_ORE.get().defaultBlockState()),
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_COPPER_ORE.get().defaultBlockState()),
@@ -104,6 +122,15 @@ public class ModConfiguredFeatures {
         // Iron
         List<OreConfiguration.TargetBlockState> ironOres = List.of(
                 OreConfiguration.target(stoneReplaceable, Blocks.IRON_ORE.defaultBlockState()),
+
+                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_IRON_ORE.get().defaultBlockState()),
+                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_IRON_ORE.get().defaultBlockState()),
+                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_IRON_ORE.get().defaultBlockState()),
+                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_IRON_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_IRON_ORE.get().defaultBlockState()),
+                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_IRON_ORE.get().defaultBlockState()),
+                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_IRON_ORE.get().defaultBlockState()),
+
                 OreConfiguration.target(dioriteReplaceable, EOVBlocks.DIORITE_IRON_ORE.get().defaultBlockState()),
                 OreConfiguration.target(andesiteReplaceable, EOVBlocks.ANDESITE_IRON_ORE.get().defaultBlockState()),
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_IRON_ORE.get().defaultBlockState()),
@@ -126,6 +153,15 @@ public class ModConfiguredFeatures {
         // Gold
         List<OreConfiguration.TargetBlockState> goldOres = List.of(
                 OreConfiguration.target(stoneReplaceable, Blocks.GOLD_ORE.defaultBlockState()),
+
+                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_GOLD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_GOLD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_GOLD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_GOLD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_GOLD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_GOLD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_GOLD_ORE.get().defaultBlockState()),
+
                 OreConfiguration.target(dioriteReplaceable, EOVBlocks.DIORITE_GOLD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(andesiteReplaceable, EOVBlocks.ANDESITE_GOLD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_GOLD_ORE.get().defaultBlockState()),
@@ -143,9 +179,11 @@ public class ModConfiguredFeatures {
         );
         List<OreConfiguration.TargetBlockState> netherGoldOres = List.of(
                 OreConfiguration.target(netherrackReplaceable, Blocks.NETHER_GOLD_ORE.defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_GOLD_ORE.get().defaultBlockState()),
 
                 OreConfiguration.target(netherrackReplaceable, ModBlocks.HYPERDENSE_NETHER_GOLD_ORE.get().defaultBlockState()),
+
+                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_GOLD_ORE.get().defaultBlockState()),
+
                 OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_GOLD_ORE.get().defaultBlockState())
         );
         register(context, GOLD_ORES_FEATURE, Feature.ORE, new OreConfiguration(goldOres, 9));
@@ -156,9 +194,11 @@ public class ModConfiguredFeatures {
         // Quartz
         List<OreConfiguration.TargetBlockState> quartzOres = List.of(
                 OreConfiguration.target(netherrackReplaceable, Blocks.NETHER_QUARTZ_ORE.defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_QUARTZ_ORE.get().defaultBlockState()),
 
                 OreConfiguration.target(netherrackReplaceable, ModBlocks.HYPERDENSE_NETHER_QUARTZ_ORE.get().defaultBlockState()),
+
+                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_QUARTZ_ORE.get().defaultBlockState()),
+
                 OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_QUARTZ_ORE.get().defaultBlockState())
         );
         register(context, QUARTZ_ORES_FEATURE, Feature.ORE, new OreConfiguration(quartzOres, 14));
@@ -167,6 +207,15 @@ public class ModConfiguredFeatures {
         // Lapis Lazuli
         List<OreConfiguration.TargetBlockState> lapisOres = List.of(
                 OreConfiguration.target(stoneReplaceable, Blocks.LAPIS_ORE.defaultBlockState()),
+
+                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_LAPIS_ORE.get().defaultBlockState()),
+                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_LAPIS_ORE.get().defaultBlockState()),
+                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_LAPIS_ORE.get().defaultBlockState()),
+                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_LAPIS_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_LAPIS_ORE.get().defaultBlockState()),
+                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_LAPIS_ORE.get().defaultBlockState()),
+                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_LAPIS_ORE.get().defaultBlockState()),
+
                 OreConfiguration.target(dioriteReplaceable, EOVBlocks.DIORITE_LAPIS_ORE.get().defaultBlockState()),
                 OreConfiguration.target(andesiteReplaceable, EOVBlocks.ANDESITE_LAPIS_ORE.get().defaultBlockState()),
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_LAPIS_ORE.get().defaultBlockState()),
@@ -189,6 +238,15 @@ public class ModConfiguredFeatures {
         // Redstone
         List<OreConfiguration.TargetBlockState> redstoneOres = List.of(
                 OreConfiguration.target(stoneReplaceable, Blocks.REDSTONE_ORE.defaultBlockState()),
+
+                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_REDSTONE_ORE.get().defaultBlockState()),
+                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_REDSTONE_ORE.get().defaultBlockState()),
+                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_REDSTONE_ORE.get().defaultBlockState()),
+                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_REDSTONE_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_REDSTONE_ORE.get().defaultBlockState()),
+                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_REDSTONE_ORE.get().defaultBlockState()),
+                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_REDSTONE_ORE.get().defaultBlockState()),
+
                 OreConfiguration.target(dioriteReplaceable, EOVBlocks.DIORITE_REDSTONE_ORE.get().defaultBlockState()),
                 OreConfiguration.target(andesiteReplaceable, EOVBlocks.ANDESITE_REDSTONE_ORE.get().defaultBlockState()),
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_REDSTONE_ORE.get().defaultBlockState()),
@@ -210,6 +268,15 @@ public class ModConfiguredFeatures {
         // Emerald
         List<OreConfiguration.TargetBlockState> emeraldOres = List.of(
                 OreConfiguration.target(stoneReplaceable, Blocks.EMERALD_ORE.defaultBlockState()),
+
+                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_EMERALD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_EMERALD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_EMERALD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_EMERALD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_EMERALD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_EMERALD_ORE.get().defaultBlockState()),
+                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_EMERALD_ORE.get().defaultBlockState()),
+
                 OreConfiguration.target(dioriteReplaceable, EOVBlocks.DIORITE_EMERALD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(andesiteReplaceable, EOVBlocks.ANDESITE_EMERALD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_EMERALD_ORE.get().defaultBlockState()),
@@ -231,6 +298,15 @@ public class ModConfiguredFeatures {
         // Diamond
         List<OreConfiguration.TargetBlockState> diamondOres = List.of(
                 OreConfiguration.target(stoneReplaceable, Blocks.DIAMOND_ORE.defaultBlockState()),
+
+                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_DIAMOND_ORE.get().defaultBlockState()),
+                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_DIAMOND_ORE.get().defaultBlockState()),
+                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_DIAMOND_ORE.get().defaultBlockState()),
+                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_DIAMOND_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_DIAMOND_ORE.get().defaultBlockState()),
+                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_DIAMOND_ORE.get().defaultBlockState()),
+                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_DIAMOND_ORE.get().defaultBlockState()),
+
                 OreConfiguration.target(dioriteReplaceable, EOVBlocks.DIORITE_DIAMOND_ORE.get().defaultBlockState()),
                 OreConfiguration.target(andesiteReplaceable, EOVBlocks.ANDESITE_DIAMOND_ORE.get().defaultBlockState()),
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_DIAMOND_ORE.get().defaultBlockState()),

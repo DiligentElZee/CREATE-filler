@@ -1,6 +1,6 @@
 {
   "type": "neoforge:add_features",
   "biomes": "#minecraft:is_badlands",
-  "features": "createfillers:hyperdense_extra_gold_ores_placed",
+  "features": "createfillers:extra_gold_ores_placed",
   "step": "underground_ores"
 }

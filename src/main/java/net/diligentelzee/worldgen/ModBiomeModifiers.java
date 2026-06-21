@@ -182,6 +182,8 @@ public class ModBiomeModifiers {
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
                 HolderSet.direct(placedFeatures.getOrThrow(OrePlacements.ORE_DIAMOND_BURIED)),
                 Set.of(GenerationStep.Decoration.UNDERGROUND_ORES)));
+
+        // Hyperdense Clumps
     }
 
     public static void addEnhancedOres(BootstrapContext<BiomeModifier> pContext){
@@ -191,49 +193,49 @@ public class ModBiomeModifiers {
         //Coal
         pContext.register(ADD_COAL_UPPER_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_UPPER_COAL_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.UPPER_COAL_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         pContext.register(ADD_COAL_LOWER_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_LOWER_COAL_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.LOWER_COAL_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         //Copper
         pContext.register(ADD_COPPER_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_COPPER_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.COPPER_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         pContext.register(ADD_COPPER_LARGE_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_LARGE_COPPER_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.LARGE_COPPER_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         //Iron
         pContext.register(ADD_IRON_UPPER_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_UPPER_IRON_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.UPPER_IRON_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         pContext.register(ADD_IRON_MIDDLE_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_MIDDLE_IRON_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.MIDDLE_IRON_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         pContext.register(ADD_IRON_SMALL_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_SMALL_IRON_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.SMALL_IRON_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         //Gold
         pContext.register(ADD_GOLD_ORE_EXTRA, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_BADLANDS),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_EXTRA_GOLD_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.EXTRA_GOLD_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         pContext.register(ADD_GOLD_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_GOLD_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.GOLD_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         pContext.register(ADD_GOLD_ORE_LOWER, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_LOWER_GOLD_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.LOWER_GOLD_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         pContext.register(ADD_NETHER_GOLD_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_NETHER),
@@ -248,41 +250,41 @@ public class ModBiomeModifiers {
         //Redstone
         pContext.register(ADD_REDSTONE_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_REDSTONE_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.REDSTONE_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         pContext.register(ADD_REDSTONE_LOWER_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_LOWER_REDSTONE_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.LOWER_REDSTONE_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         //Lapis lazuli
         pContext.register(ADD_LAPIS_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_LAPIS_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.LAPIS_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         pContext.register(ADD_LAPIS_BURIED_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_LAPIS_BURIED_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.LAPIS_BURIED_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         //Emerald
         pContext.register(ADD_EMERALD_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_MOUNTAIN),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_EMERALD_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.EMERALD_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
         //Diamond
         pContext.register(ADD_DIAMOND_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_DIAMOND_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.DIAMOND_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         pContext.register(ADD_DIAMOND_LARGE_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_LARGE_DIAMOND_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.LARGE_DIAMOND_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
         pContext.register(ADD_DIAMOND_BURIED_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
                 biomes.getOrThrow(BiomeTags.IS_OVERWORLD),
-                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.HYPERDENSE_BURIED_DIAMOND_ORES_PLACED)),
+                HolderSet.direct(placedFeatures.getOrThrow(ModPlacedFeatures.BURIED_DIAMOND_ORES_PLACED)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
     }
 

@@ -1,6 +1,6 @@
 {
   "type": "neoforge:add_features",
   "biomes": "#minecraft:is_overworld",
-  "features": "createfillers:hyperdense_large_copper_ores_placed",
+  "features": "createfillers:large_copper_ores_placed",
   "step": "underground_ores"
 }
