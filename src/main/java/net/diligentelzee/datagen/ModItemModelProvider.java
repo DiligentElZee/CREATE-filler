@@ -13,6 +13,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-    basicItem(ModItems.KILLER_RABBIT_SPAWNEGG.get());
+    withExistingParent(ModItems.KILLER_RABBIT_SPAWNEGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 }
