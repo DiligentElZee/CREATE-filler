@@ -16,11 +16,9 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateFillers.MOD_ID);
 
     public static final Supplier<CreativeModeTab> CREATE_FILLERS_TAB = CREATIVE_MODE_TAB.register("create_fillers_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KILLER_RABBIT_SPAWNEGG.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.HYPERDENSE_DIAMOND_ORE.get()))
                     .title(Component.translatable("createivetab.createfillers.items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.KILLER_RABBIT_SPAWNEGG);
-
                         output.accept(ModBlocks.HYPERDENSE_COAL_ORE);
                         output.accept(ModBlocks.HYPERDENSE_DEEPSLATE_COAL_ORE);
                         output.accept(ModBlocks.HYPERDENSE_ANDESITE_COAL_ORE);

@@ -53,11 +53,6 @@ public class CreateFillers {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
-        if (event.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-            event.accept(ModItems.KILLER_RABBIT_SPAWNEGG);
-        }
-
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.HYPERDENSE_COAL_ORE);
             event.accept(ModBlocks.HYPERDENSE_DEEPSLATE_COAL_ORE);
@@ -141,7 +136,6 @@ public class CreateFillers {
     static class ClientModEvents {
         @SubscribeEvent
         static void onClientSetup(FMLClientSetupEvent event) {
-
         }
     }
 }

@@ -54,6 +54,7 @@ public class ModConfiguredFeatures {
         RuleTest graniteReplaceable = new BlockMatchTest(Blocks.GRANITE);
         RuleTest deepslateReplaceable = new BlockMatchTest(Blocks.DEEPSLATE);
         RuleTest tuffReplaceable = new BlockMatchTest(Blocks.TUFF);
+
         RuleTest netherrackReplaceable = new BlockMatchTest(Blocks.NETHERRACK);
         RuleTest blackstoneReplaceable = new BlockMatchTest(Blocks.BLACKSTONE);
 
@@ -74,15 +75,7 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_COAL_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceable, Blocks.DEEPSLATE_COAL_ORE.defaultBlockState()),
                 OreConfiguration.target(tuffReplaceable, EOVBlocks.TUFF_COAL_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_COAL_ORE.get().defaultBlockState()),
-
-                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_COAL_ORE.get().defaultBlockState()),
-                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_COAL_ORE.get().defaultBlockState()),
-                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_COAL_ORE.get().defaultBlockState()),
-                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_COAL_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_COAL_ORE.get().defaultBlockState()),
-                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_COAL_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_COAL_ORE.get().defaultBlockState())
+                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_COAL_ORE.get().defaultBlockState())
         );
         register(context, COAL_ORES_FEATURE, Feature.ORE, new OreConfiguration(coalOres, 17));
         register(context, COAL_ORES_BURIED_FEATURE, Feature.ORE, new OreConfiguration(coalOres, 17, 0.5f));
@@ -105,15 +98,7 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_COPPER_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceable, Blocks.DEEPSLATE_COPPER_ORE.defaultBlockState()),
                 OreConfiguration.target(tuffReplaceable, EOVBlocks.TUFF_COPPER_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_COPPER_ORE.get().defaultBlockState()),
-
-                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_COPPER_ORE.get().defaultBlockState()),
-                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_COPPER_ORE.get().defaultBlockState()),
-                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_COPPER_ORE.get().defaultBlockState()),
-                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_COPPER_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_COPPER_ORE.get().defaultBlockState()),
-                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_COPPER_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_COPPER_ORE.get().defaultBlockState())
+                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_COPPER_ORE.get().defaultBlockState())
         );
         register(context, COPPER_ORES_LARGE_FEATURE, Feature.ORE, new OreConfiguration(copperOres, 20));
         register(context, COPPER_ORES_SMALL_FEATURE, Feature.ORE, new OreConfiguration(copperOres, 10));
@@ -136,15 +121,7 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_IRON_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceable, Blocks.DEEPSLATE_IRON_ORE.defaultBlockState()),
                 OreConfiguration.target(tuffReplaceable, EOVBlocks.TUFF_IRON_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_IRON_ORE.get().defaultBlockState()),
-
-                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_IRON_ORE.get().defaultBlockState()),
-                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_IRON_ORE.get().defaultBlockState()),
-                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_IRON_ORE.get().defaultBlockState()),
-                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_IRON_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_IRON_ORE.get().defaultBlockState()),
-                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_IRON_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_IRON_ORE.get().defaultBlockState())
+                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_IRON_ORE.get().defaultBlockState())
         );
         register(context, IRON_ORES_FEATURE, Feature.ORE, new OreConfiguration(ironOres, 9));
         register(context, IRON_ORES_SMALL_FEATURE, Feature.ORE, new OreConfiguration(ironOres, 4));
@@ -160,22 +137,12 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_GOLD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_GOLD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_GOLD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_GOLD_ORE.get().defaultBlockState()),
 
                 OreConfiguration.target(dioriteReplaceable, EOVBlocks.DIORITE_GOLD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(andesiteReplaceable, EOVBlocks.ANDESITE_GOLD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_GOLD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceable, Blocks.DEEPSLATE_GOLD_ORE.defaultBlockState()),
-                OreConfiguration.target(tuffReplaceable, EOVBlocks.TUFF_GOLD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_GOLD_ORE.get().defaultBlockState()),
-
-                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_GOLD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_GOLD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_GOLD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_GOLD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_GOLD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_GOLD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_GOLD_ORE.get().defaultBlockState())
+                OreConfiguration.target(tuffReplaceable, EOVBlocks.TUFF_GOLD_ORE.get().defaultBlockState())
         );
         List<OreConfiguration.TargetBlockState> netherGoldOres = List.of(
                 OreConfiguration.target(netherrackReplaceable, Blocks.NETHER_GOLD_ORE.defaultBlockState()),
@@ -221,15 +188,7 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_LAPIS_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceable, Blocks.DEEPSLATE_LAPIS_ORE.defaultBlockState()),
                 OreConfiguration.target(tuffReplaceable, EOVBlocks.TUFF_LAPIS_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_LAPIS_ORE.get().defaultBlockState()),
-
-                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_LAPIS_ORE.get().defaultBlockState()),
-                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_LAPIS_ORE.get().defaultBlockState()),
-                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_LAPIS_ORE.get().defaultBlockState()),
-                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_LAPIS_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_LAPIS_ORE.get().defaultBlockState()),
-                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_LAPIS_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_LAPIS_ORE.get().defaultBlockState())
+                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_LAPIS_ORE.get().defaultBlockState())
         );
         register(context, LAPIS_ORES_FEATURE, Feature.ORE, new OreConfiguration(lapisOres, 7));
         register(context, LAPIS_ORES_BURIED_FEATURE, Feature.ORE, new OreConfiguration(lapisOres, 7, 1.0f));
@@ -252,15 +211,7 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_REDSTONE_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceable, Blocks.DEEPSLATE_REDSTONE_ORE.defaultBlockState()),
                 OreConfiguration.target(tuffReplaceable, EOVBlocks.TUFF_REDSTONE_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_REDSTONE_ORE.get().defaultBlockState()),
-
-                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_REDSTONE_ORE.get().defaultBlockState()),
-                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_REDSTONE_ORE.get().defaultBlockState()),
-                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_REDSTONE_ORE.get().defaultBlockState()),
-                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_REDSTONE_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_REDSTONE_ORE.get().defaultBlockState()),
-                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_REDSTONE_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_REDSTONE_ORE.get().defaultBlockState())
+                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_REDSTONE_ORE.get().defaultBlockState())
         );
         register(context, REDSTONE_ORES_FEATURE, Feature.ORE, new OreConfiguration(redstoneOres, 8));
 
@@ -282,15 +233,7 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_EMERALD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceable, Blocks.DEEPSLATE_EMERALD_ORE.defaultBlockState()),
                 OreConfiguration.target(tuffReplaceable, EOVBlocks.TUFF_EMERALD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_EMERALD_ORE.get().defaultBlockState()),
-
-                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_EMERALD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_EMERALD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_EMERALD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_EMERALD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_EMERALD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_EMERALD_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_EMERALD_ORE.get().defaultBlockState())
+                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_EMERALD_ORE.get().defaultBlockState())
         );
         register(context, EMERALD_ORES_FEATURE, Feature.ORE, new OreConfiguration(emeraldOres, 3));
 
@@ -312,15 +255,7 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(graniteReplaceable, EOVBlocks.GRANITE_DIAMOND_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceable, Blocks.DEEPSLATE_DIAMOND_ORE.defaultBlockState()),
                 OreConfiguration.target(tuffReplaceable, EOVBlocks.TUFF_DIAMOND_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_DIAMOND_ORE.get().defaultBlockState()),
-
-                OreConfiguration.target(stoneReplaceable, ModBlocks.HYPERDENSE_DIAMOND_ORE.get().defaultBlockState()),
-                OreConfiguration.target(dioriteReplaceable, ModBlocks.HYPERDENSE_DIORITE_DIAMOND_ORE.get().defaultBlockState()),
-                OreConfiguration.target(andesiteReplaceable, ModBlocks.HYPERDENSE_ANDESITE_DIAMOND_ORE.get().defaultBlockState()),
-                OreConfiguration.target(graniteReplaceable, ModBlocks.HYPERDENSE_GRANITE_DIAMOND_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceable, ModBlocks.HYPERDENSE_DEEPSLATE_DIAMOND_ORE.get().defaultBlockState()),
-                OreConfiguration.target(tuffReplaceable, ModBlocks.HYPERDENSE_TUFF_DIAMOND_ORE.get().defaultBlockState()),
-                OreConfiguration.target(blackstoneReplaceable, ModBlocks.HYPERDENSE_BLACKSTONE_DIAMOND_ORE.get().defaultBlockState())
+                OreConfiguration.target(blackstoneReplaceable, EOVBlocks.BLACKSTONE_DIAMOND_ORE.get().defaultBlockState())
         );
         register(context, DIAMOND_ORES_LARGE_FEATURE, Feature.ORE, new OreConfiguration(diamondOres, 12, 0.7f));
         register(context, DIAMOND_ORES_SMALL_FEATURE, Feature.ORE, new OreConfiguration(diamondOres, 4, 0.5f));

@@ -1,36 +1,71 @@
 {
-  "item.createfillers.killer_rabbit_spawnegg": "Killer Rabbit Spawn Egg",
-
   "createivetab.createfillers.items": "Create Fillers",
 
   "block.createfillers.hyperdense_coal_ore": "Hyperdense Coal Ore",
   "block.createfillers.hyperdense_deepslate_coal_ore": "Hyperdense Deepslate Coal Ore",
+  "block.createfillers.hyperdense_andesite_coal_ore": "Hyperdense Andesite Coal Ore",
+  "block.createfillers.hyperdense_diorite_coal_ore": "Hyperdense Diorite Coal Ore",
+  "block.createfillers.hyperdense_granite_coal_ore": "Hyperdense Granite Coal Ore",
+  "block.createfillers.hyperdense_tuff_coal_ore": "Hyperdense Tuff Coal Ore",
+  "block.createfillers.hyperdense_blackstone_coal_ore": "Hyperdense Blackstone Coal Ore",
 
   "block.createfillers.hyperdense_copper_ore": "Hyperdense Copper Ore",
   "block.createfillers.hyperdense_deepslate_copper_ore": "Hyperdense Deepslate Copper Ore",
+  "block.createfillers.hyperdense_andesite_copper_ore": "Hyperdense Andesite Copper Ore",
+  "block.createfillers.hyperdense_diorite_copper_ore": "Hyperdense Diorite Copper Ore",
+  "block.createfillers.hyperdense_granite_copper_ore": "Hyperdense Granite Copper Ore",
+  "block.createfillers.hyperdense_tuff_copper_ore": "Hyperdense Tuff Copper Ore",
+  "block.createfillers.hyperdense_blackstone_copper_ore": "Hyperdense Blackstone Copper Ore",
 
   "block.createfillers.hyperdense_diamond_ore": "Hyperdense Diamond Ore",
   "block.createfillers.hyperdense_deepslate_diamond_ore": "Hyperdense Deepslate Diamond Ore",
+  "block.createfillers.hyperdense_andesite_diamond_ore": "Hyperdense Andesite Diamond Ore",
+  "block.createfillers.hyperdense_diorite_diamond_ore": "Hyperdense Diorite Diamond Ore",
+  "block.createfillers.hyperdense_granite_diamond_ore": "Hyperdense Granite Diamond Ore",
+  "block.createfillers.hyperdense_tuff_diamond_ore": "Hyperdense Tuff Diamond Ore",
+  "block.createfillers.hyperdense_blackstone_diamond_ore": "Hyperdense Blackstone Diamond Ore",
 
   "block.createfillers.hyperdense_emerald_ore": "Hyperdense Emerald Ore",
   "block.createfillers.hyperdense_deepslate_emerald_ore": "Hyperdense Deepslate Emerald Ore",
+  "block.createfillers.hyperdense_andesite_emerald_ore": "Hyperdense Andesite Emerald Ore",
+  "block.createfillers.hyperdense_diorite_emerald_ore": "Hyperdense Diorite Emerald Ore",
+  "block.createfillers.hyperdense_granite_emerald_ore": "Hyperdense Granite Emerald Ore",
+  "block.createfillers.hyperdense_tuff_emerald_ore": "Hyperdense Tuff Emerald Ore",
+  "block.createfillers.hyperdense_blackstone_emerald_ore": "Hyperdense Blackstone Emerald Ore",
 
   "block.createfillers.hyperdense_gold_ore": "Hyperdense Gold Ore",
   "block.createfillers.hyperdense_deepslate_gold_ore": "Hyperdense Deepslate Gold Ore",
+  "block.createfillers.hyperdense_andesite_gold_ore": "Hyperdense Andesite Gold Ore",
+  "block.createfillers.hyperdense_diorite_gold_ore": "Hyperdense Diorite Gold Ore",
+  "block.createfillers.hyperdense_granite_gold_ore": "Hyperdense Granite Gold Ore",
+  "block.createfillers.hyperdense_tuff_gold_ore": "Hyperdense Tuff Gold Ore",
+  "block.createfillers.hyperdense_blackstone_gold_ore": "Hyperdense Blackstone Gold Ore",
   "block.createfillers.hyperdense_nether_gold_ore": "Hyperdense Nether Gold Ore",
 
   "block.createfillers.hyperdense_iron_ore": "Hyperdense Iron Ore",
   "block.createfillers.hyperdense_deepslate_iron_ore": "Hyperdense Deepslate Iron Ore",
+  "block.createfillers.hyperdense_andesite_iron_ore": "Hyperdense Andesite Iron Ore",
+  "block.createfillers.hyperdense_diorite_iron_ore": "Hyperdense Diorite Iron Ore",
+  "block.createfillers.hyperdense_granite_iron_ore": "Hyperdense Granite Iron Ore",
+  "block.createfillers.hyperdense_tuff_iron_ore": "Hyperdense Tuff Iron Ore",
+  "block.createfillers.hyperdense_blackstone_iron_ore": "Hyperdense Blackstone Iron Ore",
 
   "block.createfillers.hyperdense_lapis_ore": "Hyperdense Lapis Ore",
   "block.createfillers.hyperdense_deepslate_lapis_ore": "Hyperdense Deepslate Lapis Ore",
+  "block.createfillers.hyperdense_andesite_lapis_ore": "Hyperdense Andesite Lapis Ore",
+  "block.createfillers.hyperdense_diorite_lapis_ore": "Hyperdense Diorite Lapis Ore",
+  "block.createfillers.hyperdense_granite_lapis_ore": "Hyperdense Granite Lapis Ore",
+  "block.createfillers.hyperdense_tuff_lapis_ore": "Hyperdense Tuff Lapis Ore",
+  "block.createfillers.hyperdense_blackstone_lapis_ore": "Hyperdense Blackstone Lapis Ore",
 
   "block.createfillers.hyperdense_redstone_ore": "Hyperdense Redstone Ore",
   "block.createfillers.hyperdense_deepslate_redstone_ore": "Hyperdense Deepslate Redstone Ore",
+  "block.createfillers.hyperdense_andesite_redstone_ore": "Hyperdense Andesite Redstone Ore",
+  "block.createfillers.hyperdense_diorite_redstone_ore": "Hyperdense Diorite Redstone Ore",
+  "block.createfillers.hyperdense_granite_redstone_ore": "Hyperdense Granite Redstone Ore",
+  "block.createfillers.hyperdense_tuff_redstone_ore": "Hyperdense Tuff Redstone Ore",
+  "block.createfillers.hyperdense_blackstone_redstone_ore": "Hyperdense Blackstone Redstone Ore",
 
   "block.createfillers.hyperdense_nether_quartz_ore": "Hyperdense Quartz Ore",
-
-  "tooltip.createfillers.krse.tooltip": "Spawns the dreaded 'Killer Rabbit'.",
-
-  "entity.createfillers.killer_rabbit": "Killer Rabbit"
+  "block.createfillers.hyperdense_blackstone_quartz_ore": "Hyperdense Blackstone Quartz Ore"
 }

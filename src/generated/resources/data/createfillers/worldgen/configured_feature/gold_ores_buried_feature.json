@@ -69,15 +69,6 @@
       },
       {
         "state": {
-          "Name": "createfillers:hyperdense_blackstone_gold_ore"
-        },
-        "target": {
-          "block": "minecraft:blackstone",
-          "predicate_type": "minecraft:block_match"
-        }
-      },
-      {
-        "state": {
           "Name": "enhanced_ore_variety:diorite_gold_ore"
         },
         "target": {
@@ -118,78 +109,6 @@
         },
         "target": {
           "block": "minecraft:tuff",
-          "predicate_type": "minecraft:block_match"
-        }
-      },
-      {
-        "state": {
-          "Name": "enhanced_ore_variety:blackstone_gold_ore"
-        },
-        "target": {
-          "block": "minecraft:blackstone",
-          "predicate_type": "minecraft:block_match"
-        }
-      },
-      {
-        "state": {
-          "Name": "createfillers:hyperdense_gold_ore"
-        },
-        "target": {
-          "block": "minecraft:stone",
-          "predicate_type": "minecraft:block_match"
-        }
-      },
-      {
-        "state": {
-          "Name": "createfillers:hyperdense_diorite_gold_ore"
-        },
-        "target": {
-          "block": "minecraft:diorite",
-          "predicate_type": "minecraft:block_match"
-        }
-      },
-      {
-        "state": {
-          "Name": "createfillers:hyperdense_andesite_gold_ore"
-        },
-        "target": {
-          "block": "minecraft:andesite",
-          "predicate_type": "minecraft:block_match"
-        }
-      },
-      {
-        "state": {
-          "Name": "createfillers:hyperdense_granite_gold_ore"
-        },
-        "target": {
-          "block": "minecraft:granite",
-          "predicate_type": "minecraft:block_match"
-        }
-      },
-      {
-        "state": {
-          "Name": "createfillers:hyperdense_deepslate_gold_ore"
-        },
-        "target": {
-          "block": "minecraft:deepslate",
-          "predicate_type": "minecraft:block_match"
-        }
-      },
-      {
-        "state": {
-          "Name": "createfillers:hyperdense_tuff_gold_ore"
-        },
-        "target": {
-          "block": "minecraft:tuff",
-          "predicate_type": "minecraft:block_match"
-        }
-      },
-      {
-        "state": {
-          "Name": "createfillers:hyperdense_blackstone_gold_ore"
-        },
-        "target": {
-          "block": "minecraft:blackstone",
           "predicate_type": "minecraft:block_match"
         }
       }

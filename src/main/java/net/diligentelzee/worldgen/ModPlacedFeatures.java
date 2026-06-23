@@ -65,7 +65,7 @@ public class ModPlacedFeatures {
                         HeightRangePlacement.triangle(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(112))));
         register(context, LARGE_COPPER_ORES_PLACED, configuredFeatures.getOrThrow(ModConfiguredFeatures.COPPER_ORES_LARGE_FEATURE),
                 ModOrePlacement.commonOrePlacement(16,
-                        HeightRangePlacement.triangle(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(112))));
+                        HeightRangePlacement.triangle(VerticalAnchor.absolute(-16), VerticalAnchor.absolute(86))));
 
         //Iron
         register(context, UPPER_IRON_ORES_PLACED, configuredFeatures.getOrThrow(ModConfiguredFeatures.IRON_ORES_FEATURE),
